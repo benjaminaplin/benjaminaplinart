@@ -1,7 +1,9 @@
 $(function() {
   
   $('#container').imagesLoaded( function() {
-    console.log('loaded');
+
+  $('.isotope').css("display", "block");
+
     var $container = 
     $('.isotope').isotope({
       itemSelector: '.painting',
